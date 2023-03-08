@@ -12,10 +12,6 @@ a {
     color: black;
 }
 
-a:visited {
-    color: black;
-}
-
 /* Flex */
 
 .flex-center {
@@ -31,4 +27,11 @@ a:visited {
 
 .orange-background {
     background-color: #ff6900;
+}
+
+/* Header */
+/* Nav */
+
+nav a {
+    color: white;
 }
