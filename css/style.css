@@ -1,0 +1,33 @@
+/* Standar Reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+/* Flex */
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+/* Preset */
+
+.white-text {
+    color: white;
+}
+
+.orange-background {
+    background-color: #ff6900;
+}
