@@ -32,6 +32,11 @@ a {
     align-items: center;
 }
 
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Preset */
 
 .white-text {
@@ -66,6 +71,14 @@ a {
     position: fixed;
 }
 
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
 /* Header */
 
 header {
@@ -88,4 +101,6 @@ nav a {
 nav i {
     padding-left: 0.75rem;
 }
+
+/* Main */
 
