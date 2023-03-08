@@ -69,6 +69,7 @@ a {
 
 .fixed {
     position: fixed;
+    z-index: 2;
 }
 
 .absolute {
@@ -78,6 +79,11 @@ a {
 .relative {
     position: relative;
     z-index: -1;
+    width: 50%;
+}
+
+.z-top {
+    z-index: 1;
 }
 
 /* Header */
@@ -111,7 +117,7 @@ main {
 }
 
 main img{
-    max-width: 500px;
+    max-width: 350px;
 }
 
 .show {
@@ -120,4 +126,47 @@ main img{
 
 .show:hover {
     display: none;
+}
+
+.heart {
+    top: 10px;
+    left: 312px;
+    padding: 0.7rem;
+    background-color: white;
+}
+
+.heart:hover {
+    color: red;
+}
+
+.discount {
+    padding: 0.2rem 0.5rem;
+    top: 450px;
+    background-color: red;
+}
+
+.susteinable {
+    padding: 0.2rem 0.5rem;
+    top: 450px;
+    left: 55px;
+    background-color: green;
+}
+
+.brand {
+    top: 510px;
+}
+
+.name {
+ top: 530px;
+}
+
+.new {
+    top: 555px;
+    color: red;
+}
+
+.old {
+    top: 555px;
+    left: 58px;
+    text-decoration: line-through;
 }
