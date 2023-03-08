@@ -12,11 +12,24 @@ a {
     color: black;
 }
 
+/* Debug */
+
+.block {
+    display: block;
+}
+
 /* Flex */
 
 .flex-center {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.flex-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 /* Preset */
@@ -29,9 +42,36 @@ a {
     background-color: #ff6900;
 }
 
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.max-widith {
+    max-width: 1000px;
+}
+
+.spacing {
+    margin: 0 auto;
+}
+
+.standard-padding {
+    padding: 1rem 0;
+}
+
 /* Header */
-/* Nav */
 
 nav a {
     color: white;
+}
+
+#logo {
+    height: 2rem;
+}
+
+.third-of {
+    width: calc(100% / 3);
 }
