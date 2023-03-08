@@ -51,7 +51,7 @@ a {
 }
 
 .max-widith {
-    max-width: 1000px;
+    width: 80%;
 }
 
 .spacing {
@@ -62,10 +62,19 @@ a {
     padding: 1rem 0;
 }
 
+.fixed {
+    position: fixed;
+}
+
 /* Header */
+
+header {
+    width: 100%;
+}
 
 nav a {
     color: white;
+    padding-right: 0.75rem;
 }
 
 #logo {
@@ -75,3 +84,8 @@ nav a {
 .third-of {
     width: calc(100% / 3);
 }
+
+nav i {
+    padding-left: 0.75rem;
+}
+
