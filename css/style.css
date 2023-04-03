@@ -41,7 +41,11 @@ a {
 
 .fw-wrap {flex-wrap: wrap;}
 
+.fd-column {flex-direction: column;}
+
 .gap-1 {gap: 1rem;}
+
+.gap-05 {gap: 0.5rem;}
 
 .gap-025 {gap: 0.25rem;}
 
@@ -55,11 +59,17 @@ a {
 
 .bg-white {background-color: white;}
 
+.bg-black {background-color: black;}
+
 /* Padding */
 
 .p-025 {padding: 0.25rem;}
 
 .p-05 {padding: 0.5rem;}
+
+/* Dimension */
+
+.width {width: 100%;}
 
 /* Preset */
 
@@ -76,7 +86,7 @@ a {
 }
 
 .max-widith {
-    width: 80%;;
+    width: 75%;;
 }
 
 .spacing {
@@ -99,6 +109,8 @@ a {
 .relative {
     position: relative;
 }
+
+.bottom {bottom: 0;}
 
 /* Header */
 
@@ -188,3 +200,7 @@ main img{
     background-image: url(../img/6b.webp);
     background-size: contain;
 }
+
+/* Footer */
+
+footer a {color: white;}
