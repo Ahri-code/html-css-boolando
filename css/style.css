@@ -37,14 +37,34 @@ a {
     justify-content: space-between;
 }
 
+.flex {display: flex;}
+
+.fw-wrap {flex-wrap: wrap;}
+
+.gap-1 {gap: 1rem;}
+
+.gap-025 {gap: 0.25rem;}
+
+/* Background */
+
+.orange-background {background-color: #ff6900;}
+
+.bg-green {background-color: green;}
+
+.bg-red {background-color: red;}
+
+.bg-white {background-color: white;}
+
+/* Padding */
+
+.p-025 {padding: 0.25rem;}
+
+.p-05 {padding: 0.5rem;}
+
 /* Preset */
 
 .white-text {
     color: white;
-}
-
-.orange-background {
-    background-color: #ff6900;
 }
 
 .align-left {
@@ -56,7 +76,7 @@ a {
 }
 
 .max-widith {
-    width: 80%;
+    width: 80%;;
 }
 
 .spacing {
@@ -69,7 +89,7 @@ a {
 
 .fixed {
     position: fixed;
-    z-index: 2;
+    z-index: 99;
 }
 
 .absolute {
@@ -78,12 +98,6 @@ a {
 
 .relative {
     position: relative;
-    z-index: -1;
-    width: 50%;
-}
-
-.z-top {
-    z-index: 1;
 }
 
 /* Header */
@@ -120,53 +134,57 @@ main img{
     max-width: 350px;
 }
 
-.show {
-    z-index: 1;
-}
-
-.show:hover {
-    display: none;
-}
-
 .heart {
-    top: 10px;
-    left: 312px;
-    padding: 0.7rem;
-    background-color: white;
+    top: 2%;
+    right: 0;
 }
 
 .heart:hover {
     color: red;
 }
 
-.discount {
-    padding: 0.2rem 0.5rem;
-    top: 450px;
-    background-color: red;
-}
-
-.susteinable {
-    padding: 0.2rem 0.5rem;
-    top: 450px;
-    left: 55px;
-    background-color: green;
-}
-
-.brand {
-    top: 510px;
-}
-
-.name {
- top: 530px;
+.text-absolute {
+    bottom: 5%;
+    left: 0;
 }
 
 .new {
-    top: 555px;
     color: red;
+    font-weight: 600;
 }
 
-.old {
-    top: 555px;
-    left: 58px;
-    text-decoration: line-through;
+.old {text-decoration: line-through;}
+
+/* Cards */
+
+.card img:hover {opacity: 0;}
+
+#card1 {
+    background-image: url(../img/1b.webp);
+    background-size: contain;
+}
+
+#card2 {
+    background-image: url(../img/2b.webp);
+    background-size: contain;
+}
+
+#card3 {
+    background-image: url(../img/3b.webp);
+    background-size: contain;
+}
+
+#card4 {
+    background-image: url(../img/4b.webp);
+    background-size: contain;
+}
+
+#card5 {
+    background-image: url(../img/5b.webp);
+    background-size: contain;
+}
+
+#card6 {
+    background-image: url(../img/6b.webp);
+    background-size: contain;
 }
